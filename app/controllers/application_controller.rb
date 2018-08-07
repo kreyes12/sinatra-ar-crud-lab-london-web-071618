@@ -37,6 +37,9 @@ class ApplicationController < Sinatra::Base
   @post.content = params[:content]
   @post.save
   end
+end
+
+end
 
 
 
